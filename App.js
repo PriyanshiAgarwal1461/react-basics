@@ -23,8 +23,8 @@ const HeaderComponent = function () {
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<HeaderComponent/>);
-// root.render(heading);
+root.render(<HeaderComponent/>); // render component
+// root.render(heading); // render element
 
 
 // const heading2 = ce("h2", {id : "heading2" , key : "h2"}, "heading2")
