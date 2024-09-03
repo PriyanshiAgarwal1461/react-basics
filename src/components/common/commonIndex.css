@@ -1,0 +1,17 @@
+.MainHeaderDiv {
+    background-color: #ded195;
+}
+
+.HeaderSubItemsSpan {
+    margin-top: 3%;
+    float: right;
+}
+
+.HeaderSubItems {  
+    padding-right: 10px;
+}
+
+.foodVillaImg{
+    width: 10%;
+    padding: 5px;
+}

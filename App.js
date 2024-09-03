@@ -1,31 +1,17 @@
-
+import React from "react";
 import ReactDOM from "react-dom/client";
+import Footer from "./src/components/common/Footer";
+import Header from "./src/components/common/Header";
 
-//React element
-const Heading = () => (
-  <h1 id="heading" key="h2">
-    heading
-  </h1>
-);
-
-var a =5; // js code
-//React component
-const HeaderComponent = function () {
+const AppLayout = function () {
   return( 
-      <div>
-        {a}  
-        {console.log(a)}
-        {5+7}
-        Functional component
-        {Heading()}
-      </div>
+    <>
+    <Header/>
+    <Footer/>
+    </>    
   );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<HeaderComponent/>); // render component
-// root.render(heading); // render element
+root.render(<AppLayout/>); 
 
-
-// const heading2 = ce("h2", {id : "heading2" , key : "h2"}, "heading2")
-// const container = createElement("div", {id : "container"}, [heading1,heading2])
