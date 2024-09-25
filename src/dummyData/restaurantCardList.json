@@ -1,0 +1,46 @@
+{
+    "data" : [
+        {
+            "id" :1,
+            "name":"BurgerKing",
+            "cuisine":["American", "Chainese"],
+            "rating":5
+        },
+        {
+            "id" :2,
+            "name":"Dominos",
+            "cuisine":["American", "Chainese"],
+            "rating":4
+        },
+        {
+            "id" :3,
+            "name":"Pizza",
+            "cuisine":["American", "Chainese"],
+            "rating":4
+        },
+        {
+            "id" :4,
+            "name":"Hotdog",
+            "cuisine":["American", "Chainese"],
+            "rating":4
+        }, 
+        {
+            "id" :5,
+            "name":"Vestal",
+            "cuisine":["American", "Chainese"],
+            "rating":4
+        },
+        {
+            "id" :6,
+            "name":"Sbs",
+            "cuisine":["American", "Chainese"],
+            "rating":4
+        }, 
+        {
+            "id" :7,
+            "name":"Chai sutta",
+            "cuisine":["American", "Chainese"],
+            "rating":4
+        }
+    ]
+}

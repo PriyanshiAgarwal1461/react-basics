@@ -1,0 +1,17 @@
+.restaurantCard {
+    background-color: #e7e1c6;
+    border: 2px solid black;
+    width: 20%;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.restaurantCardImg{
+    width: 100%;
+}
+
+.restaurantCardList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

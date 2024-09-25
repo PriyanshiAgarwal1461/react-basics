@@ -2,7 +2,7 @@ import foodVilla from "./../../asset/foodVilla.png"
 
 const Title = () => {
     return (
-        <img src={foodVilla} className="foodVillaImg"></img>
+        <img src={foodVilla} alt="img" className="foodVillaImg"></img>
     )
 }
 
